@@ -1,0 +1,36 @@
+Switch>en
+Switch#config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#vlan 10
+Switch(config-vlan)#name PC-VLAN
+Switch(config-vlan)#ex
+Switch(config)#vlan 20
+Switch(config-vlan)#name PRINT-VLAN
+Switch(config-vlan)#exit
+Switch(config)#exit
+Switch#
+%SYS-5-CONFIG_I: Configured from console by console
+wr
+
+Switch(config)#interface FastEthernet0/1
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 10
+Switch(config-if)#exit
+
+Router>en
+Router#config terminal
+Router(config)#interface fastEtheret0/0.10
+Router(config-subif)#encapsulation dot1Q(protocollo) 10(vlan)
+Router(config-subif)#encapsulation dot1Q 10
+Router(config-subif)#ip address 192.168.10.1 255.255.255.240
+Router(config-subif)#exit
+
+lo ripeto per la vlan20
+
+dhcp:
+
+Router(config)#ip dhcp pool VLAN10
+Router(dhcp-config)#network 192.16.10.0 255.255.255.128
+Router(dhcp-config)#dns-server 8.8.8.8
+Router(dhcp-config)#defualt-
+Router(dhcp-config)#defualt-router 192.16.10.1

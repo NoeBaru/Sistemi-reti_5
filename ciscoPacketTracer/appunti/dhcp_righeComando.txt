@@ -1,0 +1,182 @@
+- attivo le porte e connetto i dispositivi staccati
+- metto ip nel router della LAN
+- imposto il Default gateway(stesso Ip del router) del Server
+- attivo la porta 1 del AP e cambio SSID, metto psw, WAPqualcosa2
+- entro nei computer wireless e mi collego alla rete
+- vado nel CLI del router PT e faccio dhcp
+- entro nei computer wireless e imposto da static a dhcp, controllando che gli IP assegnati siano giusti (non tra quelli esclusi apposta per averli statici)
+- vado nel CLI del router PT e faccio NAT e port forwarding
+- vado a fare il routing statico nel router PT
+- provo a connettermi alla pagina http (usando IP privato del router)
+- rifaccio per le altre LAN
+- provo a inviare pacchetti tra le reti
+- provo ad accedere al sito http usando l'IP di rete pubblico delle altre LAN
+
+
+Es. da mettere nel CLI del router:
+
+/*
+	ip dhcp pool laboratorio
+	network 192.168.1.0 255.255.255.0
+	default-router 192.168.1.1
+	dns-server 8.8.8.8
+	ip dhcp excluded-address 192.168.1.1 192.168.1.100
+	end
+	write memory
+*/
+
+PER LA WILD MASK PRENDO SUBNET E LA NEGO (O TOLGO DA 255 IL NUMERO CHE HO)
+
+/////////////////////////////////////
+| DHCP |
+|______|
+
+//nel CLI del router e nel server invece va il sito
+
+(Non va impostato sulla singola porta ne fisica ne virtuale, ma avendo già una tabella di routing dalla configurazione appena fatta,
+non serve altro che impostare la rete corrretta corrispondente e il gateway. Alla fine salviamo la configurazione.)
+
+Router(config)#service dhcp
+Router(config)#ip dhcp pool vlan10
+Router(dhcp-config)#network 192.168.10.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.10.1
+Router(dhcp-config)#dns-server 8.8.8.8
+Router(dhcp-config)#exit
+Router(config)#ip dhcp excluded-address 192.168.10.1 192.168.10.10
+Router(config)#service dhcp
+Router(config)#ip dhcp pool vlan20
+Router(dhcp-config)#network 192.168.20.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.20.1
+Router(dhcp-config)#dns-server 8.8.8.8
+Router(dhcp-config)#exit
+Router(config)#ip dhcp excluded-address 192.168.20.1 192.168.20.10
+Router(config)#service dhcp
+Router(config)#ip dhcp pool vlan30
+Router(dhcp-config)#network 192.168.30.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.30.1
+Router(dhcp-config)#dns-server 8.8.8.8
+Router(dhcp-config)#exit
+Router(config)#ip dhcp excluded-address 192.168.30.1 192.168.30.10
+Router(config)#exit
+Router#
+%SYS-5-CONFIG_I: Configured from console by console
+
+Router#wr
+
+//////////////////////////////
+| NAT |
+|_____|
+
+Router> enable
+Router# configure terminal
+# Configura l'interfaccia interna
+Router(config)# interface FastEthernet0/0
+Router(config-if)# ip nat inside
+Router(config-if)# exit
+# Configura l'interfaccia esterna
+Router(config)# interface Serial2/0
+Router(config-if)# ip nat outside
+Router(config-if)# exit
+# Crea una lista di accesso standard per gli indirizzi interni
+Router(config)# ip access-list standard test-nat
+Router(config-std-nacl)# permit 192.168.1.0 0.0.0.255
+# Configura il NAT overload
+Router(config)# ip nat inside source list test-nat interface Serial2/0 overload
+# Esci dalla configurazione
+Router(config)# exit
+# Salva la configurazione
+Router# write memory
+
+//////////////////////////////////
+| PORT FORWARDING |
+|_________________|
+
+http:
+
+R1(config)#ip nat inside source static tcp 192.168.1.10 (ip del server) 80 50.50.50.1(serial 2/0 del router della LAN, NON quello ISP) 80
+R1(config)#end
+R1#wr
+
+DNS:
+uso UDP(funziona anche TCP, ma usiamo UDP) e porta 53
+
+R1(config)#ip nat inside source static udp 192.168.1.10 (ip del server) 53 50.50.50.1(serial 2/0 del router della LAN, NON quello ISP) 53
+R1(config)#end
+R1#wr
+
+/////////////////////////////////////
+| ROUTING STATICO |
+|_________________|
+
+TUTTI GLI IP PUBBLICI!!!
+
+nel router rete privata:
+network: ip della RETE del router di destinazione (es172.19.0.0)
+subnetMask: subnet del router di destinazione (es. 255.255.0.0)
+next hop: IP del router che fa da tramite tra le due LAN (es 172.18.4.2)
+
+
+/////////////////////////////////////
+| Server HTTP |
+|_____________|
+
+Vado in un pc della rete, apro il browser e inserisco l'IP del server, dovrebbe apparire il sito.
+Dop aver fatto anche le altre due reti controllo anche gli altri siti sempre partendo da quel pc.
+
+
+
+////////////////////////////////////
+DHCP CON ESCLUSI AL CONTRARIO(ESCLUDI GLI ULTIMI E NON I PRIMI):
+
+se ip esclusi non partono dal primo IP, ma dall'ultimo devo fare:
+
+es. 192.168.1.0/25
+
+escludi gli ultimi 10 ip disponibili
+
+32 - 25(cdr) = 7
+
+2^7-2 = 126
+
+Router(config)#ip dhcp excluded-address 192.168.1.116 192.168.1.126
+
+////////////////////////////////////
+
+
+VLAN
+aggiungo info prese dal video di classroom e dagli screen dell'es fatto in classe
+
+
+
+/////////////////////////////////
+DNS
+(Abbiamo siti configuati in modo da raggiungerli tramite ip pubblico perché por forwarding fatto)
+
+show running-config (comando per vedere tutto quello che abbiamo configurato nel router)
+
+- fare il port forwarding su tutti i server e NAT se non configurato (per server DNS uso UDP(funziona anche TCP, ma usiamo UDP) e porta 53 invece che TCP e 80 come nel server web)
+- scrivere gli IP su cui si affaccia il router e il nome del server
+- apriamo il DNS root e configuriamo la tabella del DNS con A record o NS record (es per il .com o .it) in base alla richiesta
+- se con NS bisogna associare NS a un A record che abbia l'IP del server
+
+esempio scorso esercizio:
+
+NS record
+name: .
+serverName: googleRoot (inventato)
+
+
+A record
+name: googleroot (quello inventato di prima nel server name)
+address: 8.8.8.8
+
+
+per .com (ipotizziamo che astronomia sia .com):
+
+ns record
+name: com
+server name: servercom
+
+a record
+name: servercom
+address: 10.10.5.1 (lo creo mettendo un router con switch e server)

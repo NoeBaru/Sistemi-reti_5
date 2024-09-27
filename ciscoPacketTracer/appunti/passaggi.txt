@@ -1,0 +1,36 @@
+1. Configurazione delle reti:
+• Crea un nuovo progetto su Cisco Packet Tracer.
+• Aggiungi 2 reti separate: "Rete Residenziale" e "Rete Aziendale" .
+• Configura gli indirizzi IP e le subnet mask delle interfacce dei router e dei dispositivi
+in ciascuna rete.
+2. Server DHCP e Reti Wireless:
+• Aggiungere un server DHCP per ogni rete per assegnare indirizzi IP e subnet mask
+dinamicamente. Assicurarsi che il range degli indirizzi DHCP raggiunga l'ultimo
+disponibile.
+• Configura reti wireless su ogni rete aggiungendo dispositivi adeguati.
+3. Configurazione Wireless LAN Controller (WLC):
+• Aggiungi un controller WLC (con Username:”admin” e Passw:”IVrob2024”)
+e 3 Light Weight Access Point nella Rete Ufficio.
+• Configura il controller WLC per realizzare 2 reti wireless (wifi_magazzino,
+wifi_uffici) assegnando una rete a un Light Weight Access Point e l’altra agli altri
+due.
+
+4. Configurazione delle interfacce del router:
+• Collega i router della rete Casa a un router ISP.
+• Collega la reti Ufficio a un altro router.
+5. Assegnazione degli indirizzi IP e Subnet Mask:
+• Assegna gli indirizzi IP e le subnet mask alle interfacce dei dispositivi nelle reti
+secondo la seguente tabella:
+Rete IP Rete Privata Subnet Mask IP Rete Pubb.
+Resid. 192.168.41.0 255.255.255.224 175.26.0.0
+Aziendale 192.168.42.64 255.255.255.192 173.69.0.0
+
+• Porte seriali del Router di transito già configurato
+• Configurare rotte statiche sui router per consentire il routing tra le reti senza utilizzare la
+default network “0.0.0.0” .
+6. Verifica della connettività:
+• Verifica la connettività tra i dispositivi all'interno di ciascuna rete.
+• Assicurati che i dispositivi wireless nella Rete Ufficio possano connettersi tramite
+l'access point gestito dal controller WLC.
+•
+• Configura il routing per garantire la comunicazione tra tutte le reti.

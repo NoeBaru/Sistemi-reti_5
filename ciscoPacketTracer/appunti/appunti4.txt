@@ -1,0 +1,89 @@
+-Home router	-> LAN - ip privato +subnet
+		-> Internet - static
+			-ip pubblico(ip pubblico della rete del router)+subnet
+			-default gateway del router
+			-DNS(facoltativo): 8.8.8.8
+		-> GUI -> wireless - enabled solo 2.4GHz(5 GHz disabled)
+				- 2.4 GHz - SSID = nome rete
+					-SALVARE IN BASSO
+				-> wireless security(è scritto piccolo sotto Wireless)
+					2.4 GHz
+						-Security Mode: WPA2 Personal
+						-Passphrase: password da ricordareee
+						-SALVARE IN BASSO
+
+
+-Laptop/pc 	-> Desktop -> PC Wireless: cercare rete - connect - password
+		-> Config -> Settings - DHCP	
+
+
+-Router 	-> Config -> FastEthernet0/0(dov'è collegato home router) -Port status on
+									  -ip + subnet
+
+
+-Server-pt 	-> Config - ip + subnet + default + DNS(8.8.8.8)
+		-> Services -> DHCP	-Interface: ON
+					-Default gateway:ip del router
+					-DNS(facoltativo): 8.8.8.8
+					-start ip: ip da cui inizia il dhcp
+					-subnet
+					-Maximum number of users: (255 - ultima gruppo della subnet - ultimo gruppo ip address)	
+					-Save
+					
+
+-WLC -> Config -> Management 	-ip +subnet
+				-default gateway : ip del router
+				-DNS(facoltativo): 8.8.8.8
+
+	-> andare sul pc manager collegato al WLC -> Config - ip + subnet + default + dns
+	      					  -> desktop -> web browser -scrivere ip del wlc -si apre una schermata scrivere/creare nome e password account accesso
+										-system name: nome rete
+										-management ip: ip WLC
+										-subnet: subnet
+										-defaul: ip router
+										-next
+										-network name: nome rete
+										-security: WPA2 Personal
+										-Passphrase/confirm Passphrase: password
+										-next
+										-next
+										-apply
+
+										-scrivere https://ip del wlc
+										-login : con credenziali di prima
+										-> WLAN: - create new-go
+											-profile name = SSID: nome rete
+											-apply
+											->General - status: enabled
+											->Advance - FlexConnect: selezionare primi due
+										-> Security -> layer 2 - WPA+WPA2 -spuntare WPA2 policy(si spunta anche un'altra roba da sola)
+											-spuntare PSK 
+											-PSK format: password
+											-apply
+
+										-> Advanced(di lato)	-ap goups
+										                    	-add group - nome rete -add
+													-cliccare sul gruppo -> WLANs - Add new
+													-selezionare il LAP-PT di quella rete
+													-add
+													-> General -Apply
+													->APs: selezionare AP della rete -add aps
+													-> General -Apply
+
+-LAP-PT -> Physical - controllare se c'è l'alimentatore
+
+
+per connettere pc ad LAP-PT
+	-entrare nel pc-> config->Wireless	-port status: on
+						-SSID: nome rete di LAP_PT a cui voglio connettermi
+						-Authentication: WPA2-PSK
+						-PSK Pass Phrase: password rete
+
+- routing:
+	network: ip altro router(da dove arrivano i dati) fast dell'altro router
+	subnet
+	next hop: seriale di quel router
+
+- NAT:
+
+- PORT FORWARDING:

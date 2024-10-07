@@ -1,0 +1,76 @@
+Alcuni comandi di CPT
+
+|SUBNETTING|
+|__________|
+- prendo l'IP di rete con la subnet
+- cerco prima dalla rete più grande alla più piccola
+- calcolo il numero di host e cerco /n più vicino al numero desiderato
+- faccio lo stesso con le altre sottoreti partendo dall'ultipo IP disponibile + 1
+
+////////////////////////////
+Switch
+show mac address-table
+
+SpanningTree
+enable
+configure terminal
+no spanning-tree vlan 1
+exit
+show spanning-tree
+
+////////////////////////////
+|ROUTING|
+|_______|
+rete 1: 192.168.1.0/24 collegata a router1 router1 collegato a router2 con la rete 200.100.50.0/30 Router2 collegato alla rete 8.8.8.0/24
+ROUTING STATICO
+Su router1:enableconfigure terminalip route 8.8.8.0 255.255.255.0 200.100.50.2
+Su router2:enableconfigure terminalip route 192.168.1.0 255.255.255.0 200.100.50.1
+Se volessi mandare verso un singolo indirizzo ip (magari perchè è un NAT di una rete privata)
+ip route 50.10.10.1 255.255.255.255 200.100.50.1
+
+////////////////////////////
+|NAT    |
+|STATICO|
+|_______|
+Configura interfaccia interna e esterna sulle relative porte
+ip nat inside
+ip nat outside
+
+Permetto l’accesso a determinati indirizzi
+access-list 1 permit 192.168.1.0 0.0.0.255
+
+Dichiaro che tutto cio che è inside viene trasformato in 50.10.10.1
+ip nat inside source static 192.168.1.0 50.10.10.1
+
+////////////////////////////
+|VLAN|
+|____|
+enableconfigure terminalvlan 10 
+name PC-VLANexit
+
+interface FastEthernet0/1 switchport mode access switchport access vlan 10 exit
+
+Mettere la porta in trunk
+
+Router-on-a-stick
+interface FastEthernet0/0.10 encapsulation dot1Q 10 ip address 192.168.10.1 255.255.255.0 (L’INDIRIZZO DELLA PORTA)exit
+
+////////////////////////////
+|DHCP|
+|____|
+enable configure terminal
+ip dhcp pool LAN-NAME network 192.168.1.0 255.255.255.0 default-router 192.168.1.1 dns-server 8.8.8.8
+
+ip dhcp excluded-address 192.168.1.1 192.168.1.10
+
+show ip dhcp binding
+
+DHCP in VLANip
+ip dhcp pool VLAN10 network 192.168.10.0 255.255.255.0 default-router 192.168.10.1 dns-server 8.8.8.8
+
+L’esclusione è uguale
+
+////////////////////////////
+show running-config (comando per vedere tutto quello che abbiamo configurato nel router)
+show ip nat translation (comando per vedere il nat configurato)
+///////////////////////////

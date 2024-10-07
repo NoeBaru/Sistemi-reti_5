@@ -19,7 +19,7 @@ Switch(config-if)#exit
 
 Router>en
 Router#config terminal
-Router(config)#interface fastEtheret0/0.10
+Router(config)#interface fastEthernet0/0.10
 Router(config-subif)#encapsulation dot1Q(protocollo) 10(vlan)
 Router(config-subif)#encapsulation dot1Q 10
 Router(config-subif)#ip address 192.168.10.1 255.255.255.240

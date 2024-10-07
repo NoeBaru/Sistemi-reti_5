@@ -88,6 +88,19 @@ Router(config)# exit
 Router# write memory
 
 //////////////////////////////////
+|NAT STATICO|
+|___________|
+- Configura interfaccia interna e esterna sulle relative porte
+	ip nat inside
+	ip nat outside
+
+- Permetto l’accesso a determinati indirizzi
+	access-list 1 permit 192.168.1.0 0.0.0.255
+
+- Dichiaro che tutto cio che è inside viene trasformato in 50.10.10.1
+	ip nat inside source static 192.168.1.0 50.10.10.1
+
+//////////////////////////////////
 | PORT FORWARDING |
 |_________________|
 
@@ -103,6 +116,9 @@ uso UDP(funziona anche TCP, ma usiamo UDP) e porta 53
 R1(config)#ip nat inside source static udp 192.168.1.10 (ip del server) 53 50.50.50.1(serial 2/0 del router della LAN, NON quello ISP) 53
 R1(config)#end
 R1#wr
+
+
+"show ip nat translation" per vedere il nat configurato
 
 /////////////////////////////////////
 | ROUTING STATICO |
@@ -153,6 +169,7 @@ DNS
 (Abbiamo siti configuati in modo da raggiungerli tramite ip pubblico perché por forwarding fatto)
 
 show running-config (comando per vedere tutto quello che abbiamo configurato nel router)
+show ip nat translation (comando per vedere il nat configurato)
 
 - fare il port forwarding su tutti i server e NAT se non configurato (per server DNS uso UDP(funziona anche TCP, ma usiamo UDP) e porta 53 invece che TCP e 80 come nel server web)
 - scrivere gli IP su cui si affaccia il router e il nome del server

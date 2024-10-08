@@ -1,0 +1,8 @@
+- Creo il disegno grafico (con i dispositivi, i collegamenti, attivo le porte e le varie etichette)
+- Creo le VLAN (numero, nome e le assegno alle varie porte)
+- Faccio la suddivisione della rete e quindi il calcolo degli IP
+- Assegno gli indirizzi ai dispositivi (con DHCP se serve)
+- Entro nel cli della router e faccio l'encapsulation
+- Creo l'ACL (Access List)
+- Creo le regole per l'ACL
+- Scelgo dove assegnare la regola in base alla sorgente

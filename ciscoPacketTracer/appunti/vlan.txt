@@ -1,3 +1,7 @@
+inserisco tutto nella config grafica dello switch oppure nel CLI con i seguenti comandi:
+
+CREAZIONE, NOMINA E NUMERO DELLA VLAN, ASSEGNAZIONE PORTE
+
 Switch>en
 Switch#config terminal
 Enter configuration commands, one per line.  End with CNTL/Z.
@@ -17,6 +21,8 @@ Switch(config-if)#switchport mode access
 Switch(config-if)#switchport access vlan 10
 Switch(config-if)#exit
 
+ENCAPSULATION
+
 Router>en
 Router#config terminal
 Router(config)#interface fastEthernet0/0.10
@@ -27,10 +33,39 @@ Router(config-subif)#exit
 
 lo ripeto per la vlan20
 
-dhcp:
+DHCP
 
 Router(config)#ip dhcp pool VLAN10
 Router(dhcp-config)#network 192.16.10.0 255.255.255.128
 Router(dhcp-config)#dns-server 8.8.8.8
 Router(dhcp-config)#defualt-
 Router(dhcp-config)#defualt-router 192.16.10.1
+
+CONFIGURAZIONE ACL VLAN
+
+access-list [numero] [permit/deny] [protocollo] [ipReteSorgente] [wildCard]
+
+Router(config)#access-list 1 deny 192.168.0.1 0.0.0.255(gateway e wildmask)
+Router(config)#access-list 1 permit any
+Router(config)#exit
+Router#show access-lists
+Router(config)#interface FastEtheret0/0.10
+Router(config-if)#ip access-group 1 out
+
+estesa:
+Router(config)# access-list 100 deny ip 192.18.1.128 0.0.0.63 192.168.1.64 0.0.0.63
+Router(config)# access-list 100 permit ip any any
+Router(config)# interface FastEthernet 0/0.20 
+Router(config)# ip access-group 100 in
+
+ACL estesa: passa parte del segnale e un'altra parte no
+ACL semplice (1-99): permette il segnale e deny all al resto
+
+"show access-list": per vedere le ACL create/configurate
+
+LA REGOLA DOVE LA ASSEGNO?
+Dipende: nel caso dell'es02 la sorgente è PC-grafica perché ho messo da grafica e spedizione, altrimenti il contrario
+
+
+in/out: in arrivo o uscita, la scelgo io in base alla necessità
+"deny all" vuol dire che nega tutto il resto, passerà solo la rete messa nella list creata, REGOLA IMPLICITA

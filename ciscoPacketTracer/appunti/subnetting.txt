@@ -22,3 +22,12 @@ HostMax:   192.168.10.14         11000000.10101000.00001010.00001110
 Hosts/Net: 14
 
 vedi sito: (https://jodies.de/ipcalc)
+
+
+Riassumendo i passaggi:
+	1. Converti l'indirizzo IP in binario.
+	2. Calcola o converti la subnet mask in binario.
+	3. Se hai una wildcard mask, inverti i bit per ottenere la subnet mask.
+	4. Calcola l'IP di broadcast sostituendo i bit di host con 1.
+	5. Determina il primo e l'ultimo IP disponibile modificando gli estremi.
+	6. Calcola il numero di host disponibili usando la formula 2^(32 - subnet_mask) - 2.

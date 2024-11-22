@@ -1,0 +1,106 @@
+TUTORIAL:
+
+configurazione iniziale:
+
+* bridged: la mia macchina virtuale è come un'altra macchina con il wi-fi connesso al mio accesPoint (non la usiamo perché sennò riempiamo la rete per niente)
+* nat: se ho due macchine in nat non possono comunicare, dovrei fare la tabella di routing
+* custom: crea una rete virtuale, posso mettere tante macchine quanto voglio
+
+-macchine spente
+	
+- inserisco le schede
+	kali:
+		network adapter in NAT
+	add--> network adapter 2 in custom(VMnet2)
+
+	windows:
+		network adapter in NAT
+	add--> network adapter 2 in custom(VMnet2)
+	
+- ipconfig e guardo
+	khali:
+	network --> advance network configuration--> 1--> ifconfig
+	network connection --> 2 --> IPv4 settings
+	es.192.168.90.50
+	windows:
+	cmd-->ifconfig
+	vado in pannello di controllo-->rete e internet --> centro di connessioni di rete e condivisione:
+	modifica impostazioni scheda:
+		ethernet1 --> proprietà ethernet1--> utilizza il seguente (ip e mask scelta, il gateway non ci serve)
+			ip di rete scelto a caso, ma sulla stessa rete
+			es.192.168.90.51
+- faccio il ping dell'ip scelto
+- apro il browser e inserisco l'ip del server iis
+
+vogliamo provare ad attaccare il sito internet, prima devo prendere alcune informazioni:
+
+-nel cmd scrivo nmap indirizzoIp(es.192.168.90.51)
+	fa lo scan delle porte
+		la porta 80 risponde perché noi l'abbiamo usata per il sito
+-scrivo nmap nella rete 192.168.90.0/24
+	fa lo scan (di mille porte circa, principalmente le più note) e trova 192.168.90.51 di windows, la porta 80 e http, quindi con il  sito
+
+-nmap -p 80 ( o più di una ) 192.168.90.51
+	cerco cosa c'è in quella porta
+-nmap -p- 192.168.90.51
+	tutte le porte dell'ip
+
+attacco:
+
+-nmap -p 80 -A 192.168.90.51
+	-A serve per aumentare le informazioni trovabili
+	potrebbe essere intercettata dal firewall e decidere di bloccarli perché tante richieste
+	trova che è un microsoft iis, il titolo del sito, debolezze per un possibile attacco 
+-nmap -p 80 -sS 192.168.90.51
+	scansione silenziosa per non essere vista
+-nmap -p 80 -sV 192.168.90.51
+	CPE: cioè le possibili minacce
+
+	se uso udp non ha connessione quindi è più difficile capire se la porta è aperta o meno, i più pacchetti spediti potrebbero perdersi, non è affidabile/sicuro
+
+-nmap -p 80 -sV -oN prova.txt 192.168.90.51
+	-oN salva su un file prova.txt la ricerca(usato spesso se le ricerche sono lunghe di tante ore, così poi salva e bom)
+-curl -X TRACE http://192.168.90.51
+	curl: fa la GET a riga di comando
+	TRACE: traccia tutti gli header link dell'html che sono collegati
+-gobuster dir -u http://192.168.90.51 -w /usr/share/wordliists/dirbuster/directory-list2.3-medium.txt
+	scan delle cartelle presenti su un sito ip
+	ha un elenco con un file con tutti i nomi delle cartelle probabili e le controlla (certe volte trova cartelle reali altre no, a volte errori, bisogna fare più prove ecc)
+-gobuster dir -u http://192.168.90.51/data -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,txt,config,xml,json,js
+	scan delle cartelle presenti nella sottocartella data (con -x prendi anche i file dei tipi elencati dopo)
+-curl -O http://192.168.90.51/data/products.js
+ curl -O http://192.168.90.51/data/cart.js
+ curl -O http://192.168.90.51/data/deliveryoptions.js
+	otteniamo i file js del sito internet
+
+	-man curl: mostra i suggerimenti help per curl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

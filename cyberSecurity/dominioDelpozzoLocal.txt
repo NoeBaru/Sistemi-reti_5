@@ -1,0 +1,41 @@
+PER IL DOMINIO:
+
+(seguire tutorial da link classroom)
+
+windows server 19
+
+una foresta con un solo dominio
+
+DELPOZZO.local
+psw: Prova03@1234
+
+- su Windows server
+utenti e computer activity director
+tasto dx --> nuovo utente
+nome: prova03
+nessuna scadenza password checked
+
+pannello di controllo-->connessione e condivisione-->ethernet 1-->nel dns metto l'ip del server
+
+- su windows 10 pro
+^installo windows 10 pro
+^setto la rete della macchina virtuale
+^setto gli ip e il dns (192.168.90.52)
+
+^ setto il nome computer: sysdm.cpl
+
+^ passo a gruppo di lavoro e metto il dominio delpozzo.local
+^ per il dns: pannello di controllo-->connessione e condivisione-->ethernet 1-->nel dns metto l'ip di windows server
+
+PER CREARE UNA CARTELLA CONDIVISA:
+
+SERVER:
+creo utente (active directory, tasto dx su delpozzo.local, users, tasto dx new user)
+creo un gruppo (nel mio caso studenti)
+nelle proprietà dell'user aggiungo il nome del gruppo appena creato
+creo una cartella condivisa (nel mio caso scuola)
+disabilitare l'ereditarietà, permettere all'admin di fare tutto, agli studento di visualizzare ma non modificare
+
+CLIENT:
+collegarsi con l'utente creato (nel mio caso noemi)
+andare nella gestione file nel network, scrivere nella barra in alto \\ipServer (quindi nel mio caso \\192.168.90.51) e trovo le cartelle condivise

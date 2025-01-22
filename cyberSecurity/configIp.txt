@@ -1,0 +1,46 @@
+TUTORIAL:
+
+configurazione iniziale:
+
+* bridged: la mia macchina virtuale è come un'altra macchina con il wi-fi connesso al mio accesPoint (non la usiamo perché sennò riempiamo la rete per niente)
+* nat: se ho due macchine in nat non possono comunicare, dovrei fare la tabella di routing
+* custom: crea una rete virtuale, posso mettere tante macchine quanto voglio
+
+-macchine spente
+	
+- inserisco le schede
+	kali:
+		network adapter in NAT
+	add--> network adapter 2 in custom(VMnet2)
+
+	windows:
+		network adapter in NAT
+	add--> network adapter 2 in custom(VMnet2)
+	
+- ipconfig e guardo
+	khali:
+	network --> advance network configuration--> 1--> ifconfig
+	network connection --> 2 --> IPv4 settings
+	es.192.168.90.50
+	windows:
+	cmd-->ifconfig
+	vado in pannello di controllo-->rete e internet --> centro di connessioni di rete e condivisione:
+	modifica impostazioni scheda:
+		ethernet1 --> proprietà ethernet1--> utilizza il seguente (ip e mask scelta, il gateway non ci serve)
+			ip di rete scelto a caso, ma sulla stessa rete
+			es.192.168.90.51
+- faccio il ping dell'ip scelto
+- apro il browser e inserisco l'ip del server iis
+
+vogliamo provare ad attaccare il sito internet, prima devo prendere alcune informazioni:
+
+-nel cmd scrivo nmap indirizzoIp(es.192.168.90.51)
+	fa lo scan delle porte
+		la porta 80 risponde perché noi l'abbiamo usata per il sito
+-scrivo nmap nella rete 192.168.90.0/24
+	fa lo scan (di mille porte circa, principalmente le più note) e trova 192.168.90.51 di windows, la porta 80 e http, quindi con il  sito
+
+-nmap -p 80 ( o più di una ) 192.168.90.51
+	cerco cosa c'è in quella porta
+-nmap -p- 192.168.90.51
+	tutte le porte dell'ip

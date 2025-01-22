@@ -1,0 +1,43 @@
+PROVA D'ESAME SISTEMI E RETI 2016
+1)
+┌---------------INTERNET----------------┐
+|					|
+|					|
+amm (ADSL 7 Mb/s) 		did(ADSL 24 Mb/s)
+|					|
+15 postazioni fisse		10 laboratori
+(Ethernet 100 Mb/s)		(Ethernet 100 Mb/s)
+
+2)
+OBIETTIVI:
+1. Creare un'unica linea più performante che sostituisca le due reti precedenti pur mantenendo separate logicamente la rete in due
+2. Mantenere una delle due linee ADSL come backup
+3. Aumentare la banda per la rete didattica
+4. Avere un servizio interno multimediale accessibile anche dall'esterno
+5. Deve essere sicuro sia verso l'esterno che tra le reti internet
+
+1. Per creare una linea più performante si potrebbe ipotizzare di scegliere una linea che sfrutti la tecnologia della fibra ottica (alti costi, alte velocità, adsl obsolete) al fine di raggiungere capacità maggiori, ad esempio 100 o 200 o 1000 Mb/s,a seconda della disponibilità dell'area geografica della zona
+Così facendo otteniamo un'unica linea, l'pbiettivo è però quello di mantenere logicamente separate le due reti.
+Attualmente la separazione è fisica, ma grazie alla nuova configurazione utilizzerà una separazione virtuale sfruttando la tecnologia offerta dalle VLAN (Virtual LAN).
+(argoemento le VLAN con cenni teorici ed esempi, tipi, scopo del suo utilizzo, configurazione e dove va fatta...)
+Si dovranno quindi creare due VLAN differenti VLAN_amm e VLAN_did che separeranno virtualmente la rete in due, permettendo di dare permessi differenti in base alle esigenze richieste.
+L'unica uscita verso Internet può servire ad entrambe le reti configurando correttamente le politiche di routing che garantiscano la separazione.
+Come componentistica hardware utilizzerei degli switch (veloci per mantenere le alte prestazioni della fibra) per permettere il corretto utilizzo delle VLAN, computer per le postazioni fisse, router per la connessione ad internet e il routing con l'altra rete se necessario (punto 4), access point per consenitre il BYOD (Bring Your Own Device).
+
+
+2. Per la linea di riserva come backup manteniamo la rete didattica perché più performante rispetto a quella amministrativa (24 e non 7 Mb/s)
+ Per consentire il traffico gestito dal router interno alla sottorete utilizzo il NAT insieme al Port forwarding per gestire gli indirizzi IP dei vari dispositivi all'interno della rete, permettendo di usare un IP pubblico unico e gestire le porte e gli IP privati interni.
+ Inoltre è necessario configurare correttamente il routing statico per consentire lo scambio di pacchetti nelle reti create (sia private che pubbliche)
+
+GRAFICO:
+
+
+3) 
+
+4. Server multimediale con DMZ per garantire la sicurezza e che utilizzi un server web con autenticazione che viaggia sul protocollo HTTPS (argomentare HTTPS...), sul quale sarà possibile accedere dall'esterno previa autenticazione.
+DNS (argomenta DNS...) Domain Name Server, NAS e RAID (accenno teorico che i dischi che non perdono dati ecc...)
+
+5. Per permettere la sicurezza sia verso l'esterno che tra le reti internet, è necessario l'utilizzo di un firewall che vada a filtrare i pacchetti scambiati all'interno della rete, gestendo i permessi.
+Utilizzare anche una DMZ per isolare dall'esterno i vari server.
+
+4) non studiato per ora

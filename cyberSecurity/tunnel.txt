@@ -1,0 +1,4 @@
+chiave pubblica del tunnel: vxyiccfg43HNGJBSAvg9F+y7SGWo/Mp40n2VZ+VbsH8=
+chiave pubblica client: i0BNy19stbz6kjXwXCmcZNItRLvmLah6eyOmbzZjl2A=
+chiave privata di WireGuard: EDYwMH798m5Fwm9S4gUCuZLtaaRIDxZHZNLPJFZRfmQ=
+preshared key: hrxfoYCJihGnnb1YLZhynRBomymE/cs7mwj+pUGyw7M=

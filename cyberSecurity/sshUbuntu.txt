@@ -1,0 +1,8 @@
+UBUNTU SSH port 2222 (invece che 22)
+
+comandi UBUNTU
+ssh
+
+
+comandi WINDOWS (mio pc)
+chiamare PFSESNE port:22 -->UbuntuSSH

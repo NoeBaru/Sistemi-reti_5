@@ -1,0 +1,15 @@
+VPN site-to-site:
+cosa deve funzionare:
+io sono su pfsense su un pc, firewall su un pc, i due fanno un tunnel e le due lan devono comunicare tra di loro.
+I firewall devono essere messi in bridge, poi creo tunnel e poi possono comunicare
+
+presentazione (se vogliamo PowerPoint sennò chissene) che contiene:
+- cos'è il servizio
+- come lo abbiamo fatto/impostato
+- come funziona (se funziona)
+
+(se non funziona cambiamo servizio, non ha senso presentare una roba che non va)
+
+Ho una macchina virtuale VMware con pfsense 
+WAN:
+LAN:

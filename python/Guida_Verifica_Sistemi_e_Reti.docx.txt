@@ -1,0 +1,125 @@
+﻿
+SISTEMI E RETI – PER VERIFICA
+
+🖥️ VMware – Creazione delle macchine virtuali
+
+Teoria:
+VMware permette di simulare reti aziendali e creare ambienti virtuali per test sicuri. Ogni VM ha risorse separate ed è utile per studiare, configurare server e firewall.
+
+Passaggi:
+1. Apri VMware > "Create New Virtual Machine"
+2. Seleziona ISO (Ubuntu, Windows, pfSense...)
+3. Assegna nome, CPU, RAM, disco (min. 20GB)
+4. Scegli rete VMnet2 per comunicazione tra VM
+5. Completa installazione
+
+Windows Server 2019 + Ubuntu
+
+1.  Creazione dominio con Active Directory
+Teoria:
+Un dominio centralizza la gestione di utenti e risorse. Active Directory è il cuore di questo sistema.
+
+Passaggi:
+- Server Manager > Add Roles and Features > Active Directory Domain Services
+- Dopo l’installazione, “Promote this server to a domain controller”
+- Nuova forest: nome dominio (es. noemi.local)
+- Riavvio
+
+2. DNS
+Teoria:
+DNS traduce nomi (es. amazon.fake) in IP. Fondamentale per navigare e accedere a risorse.
+
+Passaggi:
+- Server Manager > Tools > DNS
+- Aggiungi record A in Forward Lookup Zones
+- Client devono usare IP del server come DNS
+
+3. IIS con sito fake Amazon
+Teoria:
+IIS è il web server di Microsoft.
+
+Passaggi:
+- Aggiungi ruolo Web Server (IIS)
+- Inserisci HTML nella cartella C:\inetpub\wwwroot
+- Browser: http://IP_SERVER o amazon.fake se configurato DNS
+
+4. Active Directory – utenti e gruppi
+Teoria:
+Organizza utenti in OU e gruppi per gestire accessi e policy.
+
+Passaggi:
+- Active Directory Users and Computers
+- Crea OU > crea utenti > crea gruppi > aggiungi utenti ai gruppi
+
+🐧 Ubuntu – Docker con Apache e sito fake
+
+Teoria:
+Docker crea container isolati. Apache serve siti web.
+
+Passaggi:
+- Installa Docker: apt install docker.io
+- Crea index.html
+- Avvia container: docker run -dit -p 8080:80 -v $(pwd):/usr/local/apache2/htdocs/ httpd
+
+🔒 pfSense – VPN, Firewall e Servizi
+
+1. VPN (OpenVPN / WireGuard)
+Teoria:
+VPN crea tunnel sicuro tra reti/dispositivi.
+
+Passaggi OpenVPN:
+- VPN > OpenVPN > Wizard
+- Crea CA, server, utente e certificato
+- Scarica file .ovpn, importa in client
+- Firewall > Rules > WAN > Allow 1194 UDP
+
+Passaggi WireGuard:
+- VPN > WireGuard > Enable > Add tunnel e peer
+- Imposta chiavi e IP
+- Configura lato client
+- Aggiungi regole Firewall (porta 51820)
+
+2. Captive Portal
+Teoria:
+Blocca accesso fino a login (WiFi pubblici).
+
+Passaggi:
+- Services > Captive Portal > Add
+- Seleziona interfaccia LAN
+- Abilita autenticazione
+
+3. Filtraggio URL
+Teoria:
+Blocca accesso a siti indesiderati.
+
+Passaggi:
+- Package Manager > Installa pfBlockerNG
+- Configura DNSBL o blacklist manuale
+
+4. VPN Site-to-Site
+Teoria:
+Collega due LAN distanti come se fossero una rete sola.
+
+Passaggi:
+- OpenVPN Peer-to-Peer (shared key)
+- Inserisci IP remoti, chiave, subnet LAN
+- Regole firewall per traffico VPN↔LAN
+
+5. Load Balancing / Alta Affidabilità
+Teoria:
+Load balancing = dividi traffico; HA = backup automatico.
+
+Passaggi:
+- System > Routing > Gateway Groups
+- Aggiungi 2 WAN
+- Imposta tier (priorità)
+- Applica regola firewall con gateway group
+
+🔥 Regole Firewall pfSense
+Teoria:
+Controllano traffico in entrata/uscita per ogni interfaccia.
+
+Passaggi:
+- Firewall > Rules > Interfaccia
+- Add rule > Action: Pass > IP sorgente/dest > Porta
+- Salva e Apply Changes

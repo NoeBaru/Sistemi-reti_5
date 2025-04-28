@@ -1,0 +1,37 @@
+SISTEMI E RETI LABORATORIO
+
+VMware create
+- Ubuntu
+- Windows server 2019
+- kali linux
+- windows 10 pro
+- pfSense
+
+Argomenti visti fino ad ora:
+
+WINDOWS SERVER 2019 con UBUNTU
+- creazione di un dominio
+- dns
+- server IIS con fake sito Amazon
+- Active Directory (AD)
+
+KALI LINUX
+- attacco informatico
+- relazione attacco a scelta (brute force, sql injection)
+
+UBUNTU
+- container apache con fake sito amazon (docker)
+
+PFSENSE
+- VPN (openVPN, wireguard)
+- servizi( capitve protal, filtraggio URL, VPN site-to-site, load balancing o alta affidabilità)
+- regole firewall
+
+COSA VEDERE PER LA VERIFICA:
+- configurazioni delle varie vm di vmware
+- riprovare a usare windows server
+- le regole di pfsense per le VPN e i firewall
+
+NON CHIEDE KALI CON GLI ATTACCHI INFORMATICI.
+Le domande saranno senza screen precisi sui passaggi, ma bisogna sapere dire cosa fare per fare una determinata cosa che chiederà.
+La verifica si svolgerà in 30 min su Onlitest

@@ -1,0 +1,503 @@
+INFORMATIVA SULLA PRIVACY
+Ultimo aggiornamento:  dicembre 2024
+Se sei minorenne e non sei sicuro di aver compreso tutto ciò che è contenuto in questa Informativa, assicurati di parlare con un adulto di fiducia prima di utilizzare BeReal. Inoltre, è bene ricordare che BeReal non deve essere utilizzato da utenti di età inferiore ai 13 anni. Se hai più di 13 anni ma meno di 16, è necessario che un genitore o un tutore approvi il tuo utilizzo dell'applicazione.
+
+In questa Informativa sulla privacy, vengono illustrate le informazioni raccolte sull'utente, il modo in cui vengono utilizzate, i casi in cui vengono condivise e i controlli previsti per la gestione delle informazioni condivise dall'utente.
+
+1. Informazioni elaborate
+BeReal (l'“App”) raccoglie le informazioni che l'utente fornisce direttamente alla Società, attraverso l'uso dell'App e la visita al sito Web o che vengono condivise da terzi.
+
+1.1 Dati forniti dall’utente
+Dati per la creazione dell'account: quando viene creato un account sull'App, vengono richieste le seguenti informazioni. Diversamente, non è possibile fornire all'utente l'accesso all'App:
+
+●     numero di telefono, nome completo, data di nascita e nome utente.
+
+●     Indirizzo e-mail di un genitore o tutore, per gli utenti di età inferiore ai 16 anni.
+
+Durante (o dopo) la creazione dell'account sono disponibili ulteriori informazioni che l'utente può decidere di condividere:
+
+●     biografia, posizione geografica (precisa quanto si vuole) e immagine del profilo.
+
+Dati sui contenuti: quando si utilizza l'App, si può decidere di condividere i seguenti dati:
+
+●     foto e video scattati dall'utente (“Contenuto”) utilizzando l'app o foto condivise dalla propria libreria. È possibile creare un account senza autorizzare l'accesso e la raccolta di dati dalla fotocamera o dalla libreria fotografica del dispositivo. Tuttavia, si potranno vedere i Contenuti degli amici soltanto a partire dalla pubblicazione del proprio BeReal. È una parte fondamentale del funzionamento di BeReal.
+
+●     Posizione GPS dell'utente: l'utente può decidere di mostrare la propria posizione GPS quando condivide un Contenuto attraverso l’App. Se si sceglie di condividere la propria posizione e non si è minori, per impostazione predefinita viene visualizzata la posizione precisa (livello della strada), ma è possibile passare alla posizione approssimativa (livello della città). Nel caso di un minore, la posizione approssimativa viene condivisa per impostazione predefinita e solo se l'utente sceglie di condividerla.
+
+●     Reazione ai Contenuti degli amici: RealMoji, emoji, didascalie e commenti.
+
+Dati della chat: quando l'utente utilizza la funzione di chat di BeReal, vengono raccolti i messaggi, le foto e i video che l'utente condivide con i suoi amici all'interno della chat.
+
+Comunicazioni con BeReal: quando l'utente segnala un problema riguardante il funzionamento dell'App, risponde a un sondaggio o richiede assistenza, vengono raccolti i seguenti dati:
+
+●     indirizzo e-mail,
+
+●     contenuto della comunicazione,
+
+●     foto che si può decidere di condividere,
+
+●     copie di un documento d'identità rilasciato dal governo (solo quando strettamente necessario per un'identificazione certa),
+
+●     identificatori (ad esempio, numeri di telefono o indirizzo e-mail),
+
+●   qualsiasi altra informazione che l'utente deciderà di condividere.
+
+1.2 Dati raccolti quando l'utente utilizza l’App o visita il sito web
+Come tutti i servizi basati su Internet, al momento dell'utilizzo dell'App o della visita al sito web, la Società riceve automaticamente informazioni sul dispositivo dell'utente e sull'utilizzo dell'App e del sito web da parte dell'utente. La maggior parte delle informazioni viene raccolta tramite tracker:
+
+a.       attraverso l'uso del sito web:
+
+connessione e dati tecnici come l'indirizzo IP, il tipo di dispositivo, la versione del sistema operativo, il browser, la lingua preferita e i dati di navigazione.
+
+b.       attraverso l'utilizzo dell'App:
+
+dati tecnici e di connessione quali:
+
+●     indirizzo IP, data di creazione dell'account, ultimo accesso, terminale e porta, sistema operativo, dati di configurazione del sistema, tipo di dispositivo, versione del sistema operativo, browser, lingua preferita e applicazioni.
+
+●     user_id (identificatore univoco generato al momento della creazione dell'account), device_id (identificatore univoco generato durante la connessione su un nuovo dispositivo) e Amplitude ID.
+
+ID pubblicità per dispositivi mobili e identificatori del dispositivo:
+
+a fini pubblicitari sono acquisiti identificatori tecnici sviluppati dai sistemi operativi mobili, che rimangono sotto il controllo dell'utente e possono essere resettati o cancellati in qualsiasi momento attraverso le impostazioni del dispositivo:
+
+●     ID pubblicità per dispositivi mobili (ad esempio, Apple IDFA se si utilizza iOS o Google AAID se si utilizza Android).
+
+●     Identificatori del dispositivo (ad esempio, IDFV per i dispositivi iOS e ID Android per i dispositivi Android).
+
+Dati di interazione:
+
+●     amici (numero di amici, inviti ad amici, gli amici con cui si interagisce di più).
+
+Informazioni dedotte: verranno analizzati i Dati di creazione dell'account e i Dati sui contenuti per dedurre informazioni sull'utente:
+
+●     fuso orario;
+
+●    interessi.
+
+Dati di utilizzo: azioni eseguite sull'App o sul sito web, orario di pubblicazione dei Contenuti, numero di volte in cui l'utente ha scattato una foto prima di pubblicarla, numero di post di BeReal, Contenuti visualizzati, interazioni con i Contenuti, il fatto che l'utente abbia cancellato i Contenuti o che abbia bloccato utenti, momento in cui l'utente effettua uno screenshot sull'App, crash dell'applicazione, pagine visitate e registri degli eventi.
+
+Dati di geolocalizzazione: ogni volta che un utente utilizza l'App, vengono rilevati il Paese, la città e la regione di appartenenza in base all'indirizzo IP dell'utente stesso.
+
+Dati della Rubrica: si può decidere di consentire a BeReal di accedere alla rubrica per identificare gli amici compresi nella stessa che potrebbero essere già presenti su BeReal. La rubrica non è accessibile alla Società senza l'autorizzazione dell'utente. Se si decide di trovare i propri amici consentendo a BeReal di accedere alla Rubrica, i numeri di telefono della Rubrica verranno sottoposti a hashing (non verrà preso in considerazione nient'altro), i numeri di telefono sottoposti a hashing verranno inviati in modo sicuro ai sistemi di BeReal, verranno confrontati con l'elenco dei numeri di telefono sottoposti a hashing degli altri utenti di BeReal e il nome utente verrà restituito all'utente come suggerimento di amicizia. Occorre tenere presente che, qualora l'utente non accetti di condividere con la Società la propria Rubrica, la Società può comunque fornire suggerimenti personalizzati in base al numero di telefono con hashtag ricevuto dagli amici che utilizzano l'applicazione (vedere sotto).
+
+Integrazioni con i partnerDati della rubrica: Puoi decidere di consentire a BeReal di accedere alla tua rubrica per identificare gli amici della tua rubrica che potrebbero già essere su BeReal. Non accediamo alla tua Rubrica senza il tuo permesso. Se decidi di trovare i tuoi amici permettendoci di accedere alla tua Rubrica, noi facciamo l'hash dei numeri di telefono della tua Rubrica (non guardiamo nient'altro), inviamo in modo sicuro i numeri di telefono con l'hash ai nostri sistemi, confrontiamo i numeri con l'elenco dei numeri di telefono con l'hash degli altri utenti di BeReal e ti restituiamo il nome utente come suggerimento di amicizia. Tenete presente che anche se non accettate di condividere la vostra Rubrica con noi, possiamo comunque proporvi suggerimenti personalizzati di amici in base ai vostri numeri di telefono con hashtag ricevuti dai vostri amici che usano la nostra applicazione (vedi sotto).
+
+1.3 Informazioni sull'utente fornite da terze parti
+È possibile che la Società riceva informazioni sull'utente interessato da altri utenti dell'applicazione. Ad esempio, se altri utenti conoscono l'interessato e scelgono di utilizzare l'importazione di contatti, possono condividere con la Società il suo numero di telefono, così come l'interessato può condividere il loro. Se gli amici utilizzano l'importazione di contatti, è possibile che l'utente venga suggerito come amico a loro e che loro vengano suggeriti come amici all'utente.
+
+Inoltre, la Società riceverà dai propri partner informazioni sulla provenienza dell'utente che ha scaricato l'App (ad esempio, se ha fatto clic su un annuncio pubblicitario su un altro social media).
+
+2. Modalità di utilizzo delle informazioni ricevute sull'utente
+
+Motivo dell'elaborazione dei dati	Dati personali trattati	Base giuridica del trattamento
+In questo modo è possibile creare e mantenere il proprio account con la possibilità per la Società di identificare l'utente al momento dell'accesso	Dati per la creazione dell'account	Esecuzione del contratto tra l'utente e Bereal
+In questo modo è possibile pubblicare, vedere e reagire ai contenuti sull'App BeReal e utilizzare la chat di BeReal	Dati sui contenuti, dati della chat, comunicazioni con BeReal, dati sull'utilizzo, dati sui dispositivi e sulle apparecchiature	Esecuzione del contratto tra l'utente e Bereal
+In questo modo è possibile determinare il fuso orario e informare l'utente dell'orario in cui pubblicare il contenuto	Connessione e dati tecnici	Gli interessi legittimi della Società a fornire all'utente l’App (l'utente può cambiare il fuso orario in qualsiasi momento nelle impostazioni dell'applicazione)
+In questo modo è possibile elaborare richieste, reclami e segnalazioni dell'utente o di terzi	Dati sui contenuti, comunicazioni con BeReal	I legittimi interessi della società a fornire risposte agli utenti in merito all’App o ai Contenuti visualizzati
+In questo modo è possibile moderare i Contenuti in conformità con la legge (prevenzione di attività illegali, frodi, molestie informatiche, ...) e con le Condizioni d'uso	Dati sui contenuti, dati di utilizzo, dati di comunicazione	Conformità con gli obblighi di legge (ad esempio, la legge richiede a BeReal di conservare queste informazioni in determinati casi) Il legittimo interesse della Società a fornire un ambiente sicuro e protetto agli utenti secondo le Condizioni d'uso
+In questo modo è possibile sospendere gli account o impedire a determinati utenti di utilizzare l'applicazione in caso di violazione delle leggi vigenti o delle Condizioni d'uso.	Dati di creazione dell'account, dati di interazione	Il legittimo interesse della Società a fornire un ambiente sicuro e protetto agli utenti secondo le Condizioni d'uso
+In questo modo è possibile entrare in contatto con i propri amici	Dati della rubrica, dati di interazione, Informazioni fornite da terzi, dati di interazione	Consenso, Il legittimo interesse della Società a utilizzare i dati limitati ricevuti dagli amici per fornire all'utente suggerimenti personalizzati sugli amici e facilitare l'utilizzo dell’App da parte dell'utente.
+In questo modo è possibile comunicare con l’utente all'interno dell'App. Tale situazione può verificarsi nel caso in cui sia necessario comunicare con l'utente in merito a una funzione dell'App.	Dati per la creazione dell'account, dati sui contenuti	Il legittimo interesse della Società a comunicare con l'utente
+Per assicurare all’utente che l'app o il sito web funzionino senza problemi	Dati di navigazione, dati di interazione	Il legittimo interesse della Società a fornire all’utente un'app o un sito web funzionante
+In questo modo è possibile risalire all'account dell'utente in caso di perdita dell'accesso	Comunicazioni con BeReal	Il legittimo interesse della Società a consentire all’utente di tornare sull'App
+In questo modo è possibile dedurre le preferenze e gli interessi degli utenti	Dati per la creazione dell'account, dati sui contenuti, dati tecnici e di connessione, dati sulle interazioni, dati su dispositivi e apparecchiature, ID pubblicità mobile e identificatori di dispositivi, dati di geolocalizzazione, dati dedotti	Consenso
+In questo modo è possibile formare i modelli pubblicitari	Dati per la creazione dell'account, dati sui contenuti, dati tecnici e di connessione, dati sulle interazioni, dati su dispositivi e apparecchiature, ID pubblicità mobile e identificatori di dispositivi, dati di geolocalizzazione, dati dedotti	Consenso
+In questo modo è possibile riconoscere l'utente su diversi dispositivi	Connessione e dati tecnici	Il legittimo interesse della Società a garantire che sia l'utente a connettersi al proprio account
+In questo modo è possibile fornire pubblicità personalizzata in base alle preferenze e agli interessi degli utenti (ad esempio: selezionare la pubblicità più pertinente, visualizzare pubblicità sull'App, sul sito web o su siti web o app di terzi e misurare le prestazioni pubblicitarie).	Dati tecnici e di connessione, dati dedotti, ID pubblicità mobile e identificatori del dispositivo	Consenso, ove richiesto dalle leggi applicabili* Interesse legittimo, nei Paesi in cui il consenso non è richiesto
+In questo modo è possibile misurare l'efficacia dell'App e del sito web, le prestazioni dell'App (ad esempio, gli arresti anomali e le cause degli arresti anomali) o del sito web e la sua stabilità, l'utilizzo da parte dell'utente delle raccomandazioni di account e contenuti.	Dati di utilizzo, dati tecnici e di connessione, dati relativi a dispositivi e apparecchiature, ID pubblicità mobile e identificatori di dispositivi, dati di geolocalizzazione, dati di interazione, informazioni dedotte	Il legittimo interesse della Società a fornire all'utente un'applicazione o un sito web funzionale che soddisfi le sue aspettative.
+In questo modo è possibile scegliere e pubblicare contenuti sul Discovery Feed di BeReal	Dati sui contenuti, dati sulle interazioni	Il legittimo interesse della Società a fornire un feed pubblico (ma l'utente può scegliere ogni volta che pubblica se desidera che il suo post sia visibile sul feed pubblico o meno)
+In questo modo è possibile effettuare sondaggi e ottenere il feedback dell'utente a scopo di ricerca o di test sui prodotti	Comunicazioni con BeReal	Il legittimo interesse della Società a migliorare la propria applicazione (ma l'utente può scegliere ogni volta se partecipare o meno a un sondaggio)
+In questo modo è possibile contattare un genitore o un tutore legale se l'utente ha meno di 16 anni	Dati per la creazione dell'account	Obbligo legale di ottenere il consenso dei genitori
+In questo modo è possibile garantire la sicurezza dell'utente e degli altri, la sicurezza dell'App o del sito web, dei partner e la conformità con le leggi e i regolamenti in vigore	Dati sui contenuti, dati della chat, comunicazioni con BeReal, dati sull'utilizzo, dati sui dispositivi e sulle apparecchiature	Il legittimo interesse della Società a fornire un ambiente sicuro e protetto agli utenti secondo le Condizioni d'uso
+In questo modo è possibile rispondere alle richieste delle autorità nazionali	Dati per la creazione dell'account, dati sui contenuti, dati tecnici e di connessione, dati sulle interazioni, dati su dispositivi e apparecchiature, ID pubblicità per dispositivi mobili e identificatori di dispositivi, dati di geolocalizzazione	I nostri obblighi legali
+Se non vi sono obblighi legali diretti, il nostro legittimo interesse a cooperare con le autorità nazionali
+In questo modo è possibile difendere e far valere i propri diritti di fronte alle autorità (civili, penali o amministrative)	Tutte le categorie di dati	Il legittimo interesse della Società a far valere e difendere i suoi diritti.
+
+3. In quali occasioni vengono condivise le informazioni che riguardano l'utente
+3.1 Le informazioni che riguardano l'utente vengono condivise con i dipendenti e i fornitori di servizi, che le elaborano sotto il controllo della Società.
+
+Dipendenti BeReal: per consentire all'utente di utilizzare l'App o fornirgli assistenza, i dipendenti autorizzati di BeReal potrebbero aver bisogno di accedere alle sue informazioni. La Società limita rigorosamente i soggetti che possono accedere ai dati dell'utente.
+
+Fornitori: per rendere disponibile l'App, la Società collabora con un piccolo gruppo di partner per la fornitura di servizi. Sono compresi i partner che forniscono assistenza tecnica e di hosting, l'invio di notifiche, la pubblicazione e la condivisione di contenuti, l'analisi degli utenti e i sondaggi di soddisfazione, la gestione di incidenti di sicurezza o di attività fraudolente, ecc. Nell'ambito della collaborazione con tali partner, è possibile che i dati dell'utente vengano condivisi con gli stessi per mettere a disposizione dell'utente l'App.
+
+Consulenti: per adempiere agli obblighi di legge, in particolare per quanto riguarda la contabilità, la revisione contabile e il controllo interno, è possibile che i dati dell’utente vengano condivisi con i consulenti aziendali (legali, finanziari, di revisione).
+
+3.2 Inoltre, vengono trasmesse informazioni sull'utente a terzi, che le elaborano sotto il proprio controllo.
+
+Il Gruppo Voodoo: BeReal fa parte del Gruppo Voodoo (“Voodoo”) con il quale vengono condivise le informazioni dell'utente, e che può utilizzarle per i propri scopi, come descritto nella relativa Informativa sulla privacy. Voodoo potrebbe combinare i dati condivisi da parte della Società con i dati in suo possesso provenienti da altre applicazioni. Questa condivisione avviene solo previo consenso dell'utente.
+
+Partner pubblicitari: al fine di monetizzare l'inventario pubblicitario dell'applicazione e fornire agli utenti prodotti e servizi gratuiti, è possibile che le informazioni dell'utente vengano condivise con i partner della Società. Tali partner solitamente acquisiscono i dati attraverso i propri strumenti (kit di sviluppo software o “SDK” e cookie), sebbene sia possibile trasmettere loro informazioni supplementari relative all'utente in possesso della Società. Per un elenco dei partner e delle politiche sulla privacy dei loro servizi, che descrivono le relative pratiche e consentono all'utente di esercitare i propri diritti direttamente nei loro confronti, si rimanda al seguente indirizzo. Questa condivisione avviene solo previo consenso dell'utente.
+
+Integrazioni con i partner: nell'ambito della collaborazione con un partner per offrire all'utente una funzionalità, potrebbe essere necessario condividere le informazioni dell'utente con il partner per integrare tale funzionalità nell'App.
+
+Finalità legali e statutarie: occasionalmente può capitare di ricevere richieste legali di informazioni relative agli utenti, di dover condividere proattivamente i dati con le autorità (autorità governative, tribunali e terze parti assimilate) quando emergono contenuti sull'App (ad es. materiale pedopornografico o terroristico), è necessario affrontare frodi o problemi di sicurezza oppure occorre proteggere le persone presenti sull'App o altrove da eventuali danni.
+
+Cambio di proprietà: in caso di fusione, acquisizione, riorganizzazione o vendita di beni o fallimento, BeReal potrà condividere, vendere o trasferire le informazioni dell’utente. La presente Informativa sulla privacy si applica a tutte le informazioni trasferite.
+
+4. Dati su minori
+BeReal non raccoglie mai, consapevolmente o volontariamente, dati personali relativi a minori di età inferiore ai 13 anni. A seconda del luogo di residenza, se l'utente ha un'età inferiore a quella consentita nel proprio Paese, è possibile che anche un genitore o un tutore debba fornire il consenso per l'utilizzo dell’App. Se non sono ancora stati compiuti 13 anni, si prega di non utilizzare BeReal.
+
+5. Trasferimenti internazionali
+Alcuni dei partner e dei fornitori di servizi a cui si fa riferimento nella presente informativa si trovano al di fuori dell'Unione Europea.
+
+In tal caso, si garantisce che:
+
+●     i dati personali verranno trasferiti in Paesi riconosciuti come in grado di offrire un livello di protezione equivalente oppure,
+
+●     verrà attuato uno dei meccanismi che offrono garanzie adeguate (ad esempio, l'adozione delle clausole contrattuali standard della Commissione Europea).
+
+6. Durata di conservazione delle informazioni sull'utente
+Le informazioni dell'utente vengono conservate solo per il tempo necessario a fornire i servizi offerti, in linea con i requisiti legali e le linee guida delle autorità di protezione dei dati.
+
+7. Controlli che l'utente può esercitare sulle proprie informazioni nell'App
+BeReal ha implementato delle funzioni per garantire che l'utente mantenga il controllo dei propri dati personali.
+
+Notifiche: nelle impostazioni delle applicazioni è possibile scegliere e controllare quali notifiche ricevere sull’App.
+
+Bloccare o nascondere gli utenti: per garantire un'esperienza ottimale nell'utilizzo dell'App, è possibile bloccare o nascondere gli utenti da cui non si desidera ricevere contenuti o che si desidera vedano i contenuti dell’utente. Se si blocca o si nasconde un utente, in qualsiasi momento è possibile accedere alle impostazioni dell'app e vedere chi è stato bloccato o nascosto. È inoltre possibile sbloccarli o mostrarli in qualsiasi momento.
+
+Chi vede i contenuti: quando l'utente condivide un Contenuto attraverso l'App, tale Contenuto è disponibile per i suoi amici di BeReal. Ogni volta che si condivide un contenuto, si può anche decidere di permettere agli amici dei propri amici di vederlo o addirittura di pubblicarlo sul discovery feed di BeReal. L'utente può controllare questo aspetto in qualsiasi momento nelle impostazioni delle applicazioni, mentre il modo in cui gli altri utenti utilizzano il suo Contenuto non è controllato dalla Società.
+
+Fuso orario: quando l'utente crea un account, ne viene determinato il fuso orario al fine di consentirgli di utilizzare l'App. Nelle impostazioni delle applicazioni è possibile modificare il fuso orario in qualsiasi momento.
+
+Integrazioni: di tanto in tanto potrebbero essere offerte integrazioni con partner per fornire all'utente determinate funzionalità. Se questi partner richiedono all'utente di accedere all'account sui loro servizi per usufruire della funzione, l'utente potrà controllare tali integrazioni nelle impostazioni delle applicazioni in qualsiasi momento.
+
+Disattivazione dei ricordi: nelle impostazioni dell'App è possibile scegliere di attivare o disattivare la funzione ricordi in qualsiasi momento. Se l'utente disattiva questa funzione, l'utente e gli altri utenti dell'App non saranno in grado di visualizzare i Contenuti precedenti.
+
+Eliminazione dell’account: nelle impostazioni dell'App, è possibile scegliere di eliminare l’account in qualsiasi momento. Se si sceglie di eliminare il proprio account, la sua eliminazione sarà programmata. Questo processo richiede circa 15 giorni. Se si accede nuovamente al proprio account durante il periodo di 15 giorni, la richiesta di eliminazione verrà interrotta. Se non si accede nuovamente, l'account e tutte le informazioni saranno cancellate in modo permanente. Le informazioni non saranno cancellate nel caso in cui BeReal abbia ricevuto una richiesta legale valida che imponga di conservare le informazioni dell'utente.
+
+Consenso: il consenso dell'utente può essere revocato in qualsiasi momento dalla pagina “impostazioni” dell'applicazione.
+
+Una volta che l'account dell'utente viene sospeso in modo permanente da parte della Società e l'utente sceglie di eliminarlo, la Società conserverà i Dati di creazione dell'account relativi all'account dell'utente per impedire agli utenti sospesi in modo permanente di creare nuovi account.
+
+8. Di quali diritti dispone l'utente in merito alle sue informazioni
+La privacy è un diritto umano fondamentale. Pertanto, ogni soggetto che utilizza l'App, indipendentemente dal luogo in cui risiede, può aspettarsi di ricevere lo stesso trattamento da parte della Società. Sia che si tratti di Europa, o di uno dei 50 Stati degli USA, America Latina, Medio Oriente, Africa, Giappone, Asia Pacifico o qualsiasi altro Paese, è garantito quanto segue:
+
+●     Diritto di accesso e di ottenere una copia dei propri dati: l'utente può richiedere l'accesso ai propri dati personali. A chi richiede tale accesso, verranno fornite tutte le informazioni previste dalla legge, tra cui le finalità del trattamento, le categorie di dati trattati, le categorie di destinatari, i periodi di conservazione dei dati e i diritti dell'utente.
+
+●     Diritto di rettifica: l'utente può anche richiedere di rettificare eventuali dati personali che lo riguardano che sono inesatti e di completare eventuali informazioni incomplete.
+
+●     Diritto alla cancellazione/eliminazione: in determinate circostanze, l'utente può richiedere la cancellazione dei propri dati personali. Tuttavia, potrebbe essere necessario conservare alcuni dati limitati in un database archiviato, in particolare in caso di obbligo legale di conservazione di tali dati personali o se ciò è necessario per l'esercizio o la difesa di diritti legali.
+
+●     Diritto di limitazione del trattamento: in determinate circostanze, l'utente può richiedere la limitazione del trattamento dei propri dati personali, in particolare quando richiede la rettifica dei propri dati personali.
+
+●     Diritto di revocare il consenso: laddove il trattamento dei dati personali dell'utente si basi sul consenso dello stesso, l'utente può, in qualsiasi momento, revocare qualsiasi consenso precedentemente fornito. Tale revoca non pregiudica la liceità del trattamento basata sul consenso prima della revoca.
+
+●     Diritto di opposizione: l'utente può inoltre opporsi in qualsiasi momento al trattamento dei propri dati personali quando vengono utilizzati a fini di prospezione commerciale o per motivi legati alla propria situazione particolare.
+
+●     Diritto alla portabilità: in alcuni casi, l'utente può anche ottenere una copia dei propri dati personali, in un formato di uso comune e leggibile da una macchina, per consentire l'esercizio del diritto alla portabilità dei dati.
+
+●     Diritto di stabilire le istruzioni per il trattamento dei propri dati post-mortem: Gli utenti francesi hanno inoltre il diritto di impartire direttive sulla gestione dei loro dati personali dopo la loro morte.
+
+●     Se l'utente si trova nell'Unione Europea, negli Stati EFTA o nel Regno Unito e desidera esprimere un dubbio in merito alle pratiche di trattamento dei dati, ha il diritto di rivolgersi all'autorità di controllo locale o all'autorità di controllo principale di BeReal, la Commission Nationale de l'Informatique et des Libertés (CNIL), utilizzando i dettagli di contatto elencati sul rispettivo sito web.
+
+Alcuni di questi diritti (rettifica, cancellazione e revoca del consenso) possono essere esercitati direttamente sull'App, nella sezione delle impostazioni. L'utente può inoltre esercitare questi diritti e tutti gli altri diritti indirizzando la propria richiesta al servizio di assistenza all'indirizzo contact@bere.al o all’Ufficio per la protezione dei dati all'indirizzo dpo@bere.al. Poiché non viene necessariamente rilevato l'indirizzo e-mail dell'utente, a volte occorrono informazioni aggiuntive per assicurarsi che la richiesta provenga dall'utente stesso.
+
+9. Stati Uniti Diritti alla privacy
+La presente sezione sui diritti di privacy degli Stati Uniti integra le informazioni contenute nell'Informativa sulla privacy e si applica a tutti gli utenti, visitatori e altri soggetti che risiedono negli Stati Uniti. La presente informativa viene adottata per ottemperare a varie normative federali e statali sulla privacy, tra cui, a titolo esemplificativo, il California Consumer Privacy Act (CCPA), il California Privacy Rights Act (CPRA), il Colorado Privacy Act (CPA), il Connecticut Data Privacy Act (CTDPA), il Florida Privacy Protection Act (FPPA), l'Iowa Consumer Data Protection Act (ICDPA), il Montana Consumer Data Privacy Act (MCDPA), il New Hampshire Consumer Privacy Act (NHCPA), il New Jersey Personal Information and Privacy Protection Act (NJPIPPA), l’Oregon Consumer Privacy Act (OCPA), lo Utah Consumer Privacy Act (UCPA), il Texas Data Privacy and Security Act (TDPSA), il Virginia Consumer Data Protection Act (VCDPA), il Data Protection Act degli Stati Uniti (VCDPA), il Federal Trade Commission Act (FTC Act) degli Stati Uniti e altre leggi applicabili.
+
+Informazioni raccolte
+Vengono raccolte informazioni che identificano, si riferiscono a, descrivono, fanno riferimento, possono essere associate o potrebbero essere ragionevolmente collegate, direttamente o indirettamente, a un particolare consumatore o dispositivo (“informazioni personali”). In particolare, la Società ha acquisito le categorie di informazioni personali descritte nella sezione della propria informativa sulla privacy “Informazioni elaborate” provenienti da residenti in California negli ultimi dodici (12) mesi.
+
+Utilizzo delle informazioni personali
+È possibile che le informazioni personali raccolte vengano utilizzate o divulgate per uno o più degli scopi aziendali o commerciali descritti nella sezione della nostra politica sulla privacy “Modalità di utilizzo delle informazioni ricevute sull'utente” .
+
+Conservazione dei dati
+Le informazioni personali dell'utente o che lo riguardano saranno conservate per il tempo ragionevolmente necessario e proporzionato al raggiungimento degli scopi per i quali tali informazioni sono state raccolte o elaborate, a meno che un periodo di conservazione più lungo non sia richiesto o consentito dalla legge.
+
+Condivisione delle informazioni personali
+Le informazioni personali dell'utente possono essere condivise con terze parti per scopi commerciali, tra cui:
+
+●     Reti pubblicitarie: per fornire pubblicità personalizzata in base alle attività, ai contenuti, al profilo, alla cronologia di navigazione e alle preferenze dell'utente.
+
+●     Fornitori di analisi dei dati: per comprendere i modelli di utilizzo di app e siti web e migliorare i servizi.
+
+Negli ultimi dodici (12) mesi sono state divulgate le seguenti categorie di informazioni personali per scopi commerciali:
+
+● Identificatori come l'indirizzo IP, gli identificatori online e del dispositivo.
+
+● Internet o altre informazioni sull'attività della rete elettronica, quali attività, cronologia di navigazione e interazioni con la nostra app e il nostro sito web.
+
+Nota bene: le informazioni personali non vengono vendute nel senso tradizionale del termine. Tuttavia, ai sensi di alcune leggi statali come il CCPA/CPRA e potenzialmente altre tra cui CPA, CTDPA, FPPA, ICDPA, MCDPA,
+
+NHCPA, NJPIPPA, OCPA, UCPA, TDPSA e VCDPA, alcune attività di condivisione dei dati, in particolare quelle che coinvolgono i cookie e tecnologie simili, possono essere considerate una "vendita" o "condivisione" di informazioni personali.
+
+Diritti e scelte dell'utente
+In qualità di residente negli Stati Uniti, l'utente gode di diritti specifici in merito alle proprie informazioni personali ai sensi delle leggi federali e statali, tra cui CCPA, CPRA, CPA, CTDPA, FPPA, ICDPA, MCDPA, NHCPA, NJPIPPA, OCPA, UCPA, TDPSA, VCDPA e FTC Act. Tali diritti includono:
+
+1. Diritto all'informazione
+L'utente ha il diritto di richiedere la comunicazione di determinate informazioni sulla raccolta e l'utilizzo dei suoi dati personali negli ultimi dodici (12) mesi. Una volta ricevuta e verificata la richiesta, verranno comunicati all'utente:
+
+●     Le categorie di informazioni personali raccolte.
+
+●     Le categorie di fonti da cui sono state raccolte le informazioni personali.
+
+●     Lo scopo aziendale o commerciale per la raccolta o la vendita delle informazioni personali dell'utente.
+
+●     Le categorie di terze parti con cui vengono condivise le informazioni personali dell'utente.
+
+●     Le informazioni personali specifiche raccolte sull’utente.
+
+2. Diritto di cancellazione
+L'utente ha il diritto di richiedere la cancellazione di qualsiasi informazione personale raccolta sullo stesso e conservata, fatte salve alcune eccezioni. Una volta ricevuta e verificata la richiesta, le informazioni personali saranno cancellate dagli archivi della società, a meno che non si applichi un'eccezione.
+
+3. Diritto di rinunciare alla vendita e alla condivisione delle informazioni personali
+L'utente ha il diritto di opporsi alla vendita e alla condivisione delle proprie informazioni personali. Per esercitare questo diritto, contattare l'azienda utilizzando le informazioni fornite di seguito.
+
+È inoltre possibile accedere alle impostazioni sulla privacy dell'applicazione.
+
+L'utente può anche utilizzare un segnale di controllo globale della privacy (Global Privacy Control, GPC), ovvero un meccanismo supportato da alcuni browser o estensioni del browser che comunicano le preferenze sull'utente in materia di privacy. Il rilevamento di un segnale di questo tipo viene considerato come una richiesta di rinuncia valida per il dispositivo o il browser in uso.
+
+4. Diritto alla non discriminazione
+L'utente ha il diritto di non ricevere un trattamento discriminatorio per l'esercizio dei propri diritti CCPA. L'azienda non discriminerà l'utente per l'esercizio di uno qualsiasi dei suoi diritti CCPA.
+
+Esercizio dei diritti dell'utente
+Per esercitare i diritti sopra descritti, inoltrare una richiesta verificabile da parte del consumatore, utilizzando una delle due seguenti modalità:
+
+●     contattando l’ufficio per la protezione dei dati qui: dpo@bere.al
+
+●   contattando il centro di assistenza qui.
+
+Solo l'utente, o una persona registrata presso il Segretario di Stato della California che l'utente autorizza ad agire per suo conto, può presentare una richiesta verificabile del consumatore relativa alle sue informazioni personali.
+
+La richiesta verificabile del consumatore deve fornire informazioni sufficienti che consentano di verificare ragionevolmente che l'utente sia la persona su cui sono state raccolte le informazioni personali o un rappresentante autorizzato.
+
+L'utente può presentare una richiesta verificabile di accesso o cancellazione da parte del consumatore non più di due volte nell'arco di un periodo di 12 mesi. La richiesta deve:
+
+●     Includere informazioni sufficienti: dettagli che permettano di verificare l'identità dell'utente e la sua richiesta. A tal fine può essere necessario comunicare informazioni specifiche di cui la società dispone già.
+
+●     Illustrare la richiesta in modo sufficientemente dettagliato: in modo da poter comprendere, valutare e rispondere correttamente.
+
+La richiesta verrà accolta entro 45 giorni (fino a 15 giorni in caso di condivisione dei dati) dal suo ricevimento. In caso di ulteriore tempo (fino a un massimo di altri 45 giorni), l'utente verrà informato per iscritto del motivo e del periodo di proroga.
+
+Formato della risposta e consegna
+La risposta scritta verrà inviata per posta o per via elettronica, a scelta dell'utente. Laddove non sia possibile soddisfare una richiesta, ne verrà spiegato il motivo nella risposta.
+
+Per le richieste di accesso ai dati, la risposta si riferirà solo al periodo di 12 mesi precedente la ricezione della richiesta verificabile da parte del consumatore. La risposta spiegherà i motivi per cui non è possibile soddisfare una richiesta, se applicabile. Per le richieste di portabilità dei dati, verrà scelto un formato per la trasmissione delle informazioni personali che sia facilmente utilizzabile e che consenta di trasmettere le informazioni da un'entità a un'altra senza ostacoli.
+
+Informazioni di contatto
+Per domande o commenti sulla presente informativa, sulle modalità di raccolta e utilizzo delle informazioni descritte nel presente documento e nella Informativa sulla privacy, sulle scelte e sui diritti dell'utente in merito a tale utilizzo, o per esercitare i diritti previsti dalla legge californiana, si consiglia di contattare l'Ufficio per la protezione dei dati personali qui o il Centro di assistenza qui.
+
+Minori
+Il sito web e l'App non sono destinati all'uso da parte di minori di 13 anni e non vengono raccolte intenzionalmente informazioni personali relativi ai minori di tale età.
+
+In caso di età compresa tra i 13 e i 16 anni e se si desidera esercitare i propri diritti, seguire le istruzioni fornite nelle impostazioni sulla privacy dell'applicazione o rivolgersi direttamente alla società.
+
+Rinuncia al tracciamento (Do Not Track, DNT)
+Alcuni browser offrono un'impostazione "Do Not Track" (DNT) che consente di esprimere la preferenza di non essere tracciati dai siti web. Tuttavia, non esiste uno standard universalmente accettato per l'interpretazione dei segnali DNT. Di conseguenza, il sito web aziendale non risponde attualmente ai segnali DNT. L'attenzione si concentra invece sul rispetto delle preferenze riconosciute in materia di privacy, come il Global Privacy Control (GPC).
+
+10. Contatti
+Il titolare del trattamento dei dati dell’App è BeReal SAS, con sede legale in 30/32 Boulevard Sébastopol 75004 Parigi, FRANCIA, e iscritta con il numero 881 079 685 alla Camera di Commercio e delle Imprese di Parigi
+
+In caso di domande relative alle pratiche sulla privacy o all'Informativa sulla privacy, è possibile mettersi in contatto con la società per posta all'indirizzo:
+
+BeReal SAS
+
+30/32 Boulevard Sébastopol 75004 Parigi, FRANCIA
+
+È inoltre possibile inviare una domanda all'assistenza sulla privacy tramite il nostro centro assistenza qui.
+
+È possibile contattare il nostro Ufficio per la protezione dei dati qui.
+
+11. Aggiornamento dell’Informativa sulla privacy
+In caso di necessità o se la legge lo richiede, l'Informativa sulla privacy potrebbe essere aggiornata.
+
+/////////
+TERMINI
+
+Termini
+Ultimo aggiornamento: 25 aprile 2023
+
+Benvenuti a BeReal! 
+
+La nostra missione è quella di avere amici veri. Vogliamo costruire servizi e tecnologie che vi permettano di vivere la vostra vita reale e di condividerla con i vostri amici reali. 
+
+Per aiutarvi a farlo, vogliamo essere molto chiari su cosa significa far parte della comunità di BeReal. Vogliamo che tu sappia cosa puoi aspettarti da noi, cosa noi ci aspettiamo da te e come insieme possiamo rendere BeReal migliore per te e i tuoi amici.
+
+Per fare ciò abbiamo creato questi Termini di Servizio ("Termini"), i nostri INFORMATIVA SULLA PRIVACY, e Standard comunitari (insieme il "Contratto con l'utente"). In tutto l'Accordo per gli utenti alcune parole hanno un significato specifico e devono essere interpretate allo stesso modo ovunque siano utilizzate. Se qualcosa non è chiaro o non capisci cosa stiamo dicendo, non esitare a contattarci. Il nostro obiettivo è quello di massimizzare la trasparenza e la comprensione del funzionamento di BeReal.
+
+Se pensate che leggere tutto questo sia difficile, immaginate di doverlo scrivere! Ma l'abbiamo scritto per voi perché è importante per voi e per noi. Quindi, per favore, leggetelo. 
+
+Se non volete leggere o accettare l'Accordo per gli utenti, allora non utilizzate i nostri Servizi, ma se utilizzate i nostri Servizi comprendete che accettate di essere vincolati dall'Accordo per gli utenti. 
+
+1. Chi può utilizzare i nostri servizi
+
+Per Servizi si intendono tutti gli aspetti delle applicazioni mobili di BeReal, i nostri sito web e il software e i sistemi che alimentano le applicazioni e il nostro sito web.
+
+ChatGPT è bello, ma i nostri Servizi non devono essere utilizzati da AI o bot. Per utilizzare i nostri Servizi è necessario essere un VERO essere umano (perché i sentimenti contano):
+
+che abbia almeno 13 anni. A seconda del luogo di residenza, se l'utente ha un'età inferiore a quella consentita nel proprio paese, potrebbe essere necessario il consenso di un genitore o di un tutore per l'utilizzo dei nostri Servizi; oppure
+che ha l'autorità legale di creare un account per conto di un'altra persona, società, organizzazione, governo o altra entità legale, se non si sta creando un account per se stessi. 
+Tutti i riferimenti a "voi" e "vostro" nell'Accordo per gli utenti indicano sia voi, l'utente finale e/o per gli account creati per conto di un'altra persona, società, organizzazione, governo o altra entità legale, la persona che ha l'autorità legale di creare e/o gestire l'account. 
+
+2. Protezione dei dati e della privacy
+
+Il nostro INFORMATIVA SULLA PRIVACY descrive quali informazioni condividete con noi, quando vengono condivise e come le gestiamo quando utilizzate i nostri Servizi. Utilizzando i nostri Servizi, l'utente comprende e acconsente alla raccolta, all'uso, alla conservazione, all'elaborazione, alla condivisione e al trasferimento di tali informazioni nei Paesi in cui gestiamo i nostri Servizi e ai partner che ci aiutano a fornire i nostri Servizi.   
+
+3. Contenuto
+
+A nessuno piacciono le persone che rubano i contenuti o quelle che mancano di rispetto agli altri. Non siate quelle persone. Siate autentici. Siate gentili. Rispettoso. Siate voi. Siate veri. 
+
+Per Contenuto si intendono foto del profilo, foto, video, RealMojis, emojis, didascalie, commenti o messaggi, condivisi attraverso i nostri Servizi.
+
+L'utente è responsabile dei Contenuti che condivide attraverso i nostri Servizi, anche per quanto riguarda la garanzia di avere il diritto di utilizzare i Contenuti e di essere conforme alle leggi, alle norme, ai regolamenti e all'Accordo con gli utenti.
+
+Se l'utente condivide Contenuti che non ha il diritto di utilizzare o che violano leggi, norme, regolamenti o l'Accordo per gli utenti, abbiamo il diritto di rimuoverli e li rimuoveremo. Nessun reclamo. 
+
+Non tolleriamo molestie, intimidazioni, diffamazioni, minacce, contenuti di odio, sfruttamento sessuale di minori, abusi sessuali, promozione del suicidio o dell'autolesionismo, furto di proprietà intellettuale o altre attività illegali. Per informazioni dettagliate, consultare il nostro sito Standard comunitariche fanno parte dell'Accordo per gli utenti. 
+
+L'utente è proprietario dei Contenuti che condivide attraverso i nostri Servizi e concede a BeReal una licenza di utilizzo dei Contenuti alle seguenti condizioni: 
+
+Per Contenuti riservati agli amici si intendono i Contenuti che l'utente ha condiviso solo con i suoi amici su BeReal. Su base volontaria, alcune persone possono scegliere di condividere i propri Contenuti riservati agli amici con BeReal in modo che possano essere utilizzati per scopi di comunicazione, commerciali e di marketing. Ad esempio su cartelloni pubblicitari, altre pubblicità, App Store di Apple o Play Store di Google. Se decidi di farlo, dovrai concedere a BeReal una licenza per l'utilizzo dei tuoi Contenuti riservati agli amici. 
+Per Contenuto condiviso a livello globale si intende il Contenuto che l'utente ha condiviso con tutti su BeReal. In cambio dell'utilizzo dei nostri Servizi, l'utente ci concede una licenza mondiale, non esclusiva, esente da royalty e sublicenziabile per utilizzare, copiare, riprodurre, elaborare, adattare, modificare, pubblicare, trasmettere, visualizzare e distribuire i contenuti condivisi con un Contenuto condiviso a livello globale su qualsiasi supporto o metodo di distribuzione. Questa licenza ci autorizza a rendere disponibile il Contenuto condiviso a livello globale al resto del mondo e a permettere ad altri di fare lo stesso. L'utente accetta che questa licenza includa il diritto di BeReal di fornire, promuovere e migliorare i nostri Servizi e di rendere disponibili i Contenuti condivisi a livello globale ad altre società, organizzazioni o individui per la sindacazione, la trasmissione, la distribuzione, la promozione o la pubblicazione su altri media e servizi. Tali usi aggiuntivi da parte di BeReal, o di altre società, organizzazioni o individui, vengono effettuati senza alcun compenso all'utente in relazione ai Contenuti condivisi a livello globale, in quanto l'uso dei nostri Servizi da parte dell'utente è considerato un compenso sufficiente.
+4. Segnalazione di contenuti violenti 
+
+Non abbiamo l'obbligo di monitorare i Contenuti che le persone condividono attraverso i nostri Servizi. Tuttavia, vogliamo che i nostri Servizi siano un luogo in cui le persone possano divertirsi ed esprimere il loro vero io sentendosi al sicuro. I contenuti che violano i diritti di un'altra persona o che non sono conformi alle leggi, alle norme, ai regolamenti o all'Accordo con l'utente ("Contenuti violenti") sono vietati. Se vedete dei Contenuti violenti, potete segnalarceli attraverso la funzione di segnalazione nelle applicazioni o visitando il modulo di segnalazione sul nostro sito web.  
+
+Se ritenete che il vostro Contenuto sia stato copiato in modo da violare i vostri diritti di proprietà intellettuale, potete segnalarlo direttamente nell'applicazione o visitando il nostro modulo di segnalazione della proprietà intellettuale sul nostro sito web.
+
+5. Fine dei servizi
+
+Possiamo sospendere temporaneamente o permanentemente l'account dell'utente e impedirgli di utilizzare i nostri Servizi se abbiamo determinato che l'utente ha condiviso Contenuti violenti o ha utilizzato i nostri Servizi in un modo che viola i diritti di un'altra persona o non rispetta le leggi, le norme, i regolamenti o l'Accordo con l'utente.
+
+Nella maggior parte dei casi applichiamo una politica di 3 strike. Ciò significa che se condividete un Contenuto violento, sospenderemo il vostro account per 30 giorni, durante i quali non potrete condividere Contenuti o vedere altri Contenuti sui nostri Servizi. Se questo accade per 3 volte, sei fuori di qui! Ti sospenderemo definitivamente dai nostri Servizi e ti impediremo di creare un nuovo account BeReal. 
+
+Si noti che alcuni contenuti violenti (ad esempio, materiale pedopornografico) comporteranno la sospensione immediata e permanente dell'utente dai nostri Servizi. 
+
+È possibile fare ricorso contro una sospensione contattandoci tramite il nostro sito web modulo di supporto. 
+
+Per proteggere l'utente, gli altri utenti e i nostri Servizi, possiamo sospendere temporaneamente l'account dell'utente nel caso in cui rilevassimo attività anomale che potrebbero presentare rischi tecnici o di sicurezza per l'utente, gli altri utenti o i nostri Servizi. 
+
+Cancelleremo il vostro account se rimarrà inattivo per più di 2 anni. Prima di farlo, vi informeremo in modo che possiate interrompere la cancellazione, se lo desiderate.
+
+Lo capiamo, a volte le cose non sono destinate ad accadere. È possibile eliminare il proprio account in qualsiasi momento entrando nelle impostazioni del proprio account e scegliendo l'opzione di eliminazione dell'account.
+
+6. Licenza d'uso dei nostri Servizi
+
+I nostri Servizi sono protetti da copyright, marchi, segreti commerciali e altre leggi in tutto il mondo. Per quanto allettante possa essere, nulla di quanto contenuto nell'Accordo con l'Utente conferisce all'utente il diritto di utilizzare il nome BeReal o qualsiasi marchio, logo, nome di dominio, altre caratteristiche distintive del marchio e altri diritti di proprietà di BeReal. 
+
+Durante l'utilizzo dei nostri Servizi, BeReal concede all'utente una licenza personale, mondiale, esente da royalty, non cedibile e non esclusiva per l'utilizzo del software fornito all'utente come parte dei nostri Servizi. Questa licenza ha il solo scopo di consentire all'utente di utilizzare e godere dei nostri Servizi in modo coerente con l'Accordo con l'utente. Questa licenza termina quando l'utente smette di utilizzare i nostri Servizi.
+
+BeReal è libera di utilizzare qualsiasi feedback, commento o suggerimento fornito dall'utente in merito ai nostri Servizi.
+
+7. Limitazione di responsabilità
+
+Utilizzando i nostri Servizi, l'utente accetta che la responsabilità di BeReal, delle sue affiliate, delle società collegate, dei funzionari, dei direttori, dei dipendenti, degli agenti, dei rappresentanti, dei partner e dei licenziatari sia limitata alla misura massima consentita nel paese di residenza dell'utente. 
+
+8. Legge applicabile e giurisdizione
+
+Nella misura in cui i presenti Termini consentono all'utente o a BeReal di avviare un contenzioso in un tribunale, sia l'utente che BeReal acconsentono alla giurisdizione esclusiva dei tribunali di Parigi e alla legge francese. L'utente e BeReal concordano che tutte le rivendicazioni e le controversie (contrattuali o di altro tipo), derivanti da o relative ai Termini o all'Accordo con l'utente, saranno discusse esclusivamente nei tribunali di Parigi, Francia e che tali controversie saranno disciplinate dalla legge francese, a meno che ciò non sia proibito dalle leggi del paese in cui l'utente risiede. 
+
+9. Generale
+
+BeReal può aggiornare l'Accordo per gli utenti in qualsiasi momento. Se effettuiamo un aggiornamento che influisce sui diritti o sugli obblighi di una delle parti, lo comunicheremo all'utente circa 30 giorni prima dell'entrata in vigore dell'aggiornamento. Se l'utente continua a utilizzare i nostri servizi dopo i 30 giorni, accetta il nostro Accordo per gli utenti aggiornato. Se l'utente non vuole accettare, deve smettere di utilizzare i nostri Servizi.  
+
+Nel caso in cui una qualsiasi parte dei presenti Termini o dell'Accordo con l'utente sia ritenuta inapplicabile, i nostri avvocati si faranno prendere dal panico, ma tutte le altre disposizioni rimarranno applicabili. 
+
+Il Contratto d'uso è stipulato tra l'utente e BeReal SAS, con sede legale al 30/32 Boulevard Sébastopol 75004 Parigi, FRANCIA, e registrata con il numero 881 079 685 presso il Registro del Commercio e delle Imprese di Parigi. 
+
+10. Contatti o domande
+
+Il vostro parere migliora noi e i nostri Servizi. Sia che abbiate domande su una qualsiasi parte dell'Accordo per gli utenti, sia che abbiate un commento o un feedback sui nostri Servizi, vogliamo sentirvi. 
+
+Potete raggiungerci per posta all'indirizzo:
+
+BeReal SAS
+30/32 Boulevard Sébastopol
+75004 Parigi, FRANCIA
+
+È inoltre possibile inviare domande attraverso il nostro centro di assistenza qui o contattateci tramite e-mail. 
+
+ 
+
+Termini precedenti:
+
+In vigore dal 02-08-2021 al 24-05-2023
+
+////////////////////////////
+STANDARD DELLA COMMUNITY
+Standard Della Community
+Ultimo aggiornamento: 24 aprile 2023
+
+BeReal è sinonimo di scoperta. Ci stanno a cuore l'autenticità, la spontaneità e la gentilezza e siamo fieri di poter offrire una piattaforma che consente agli utenti come te di condividere un assaggio della propria vita reale e di scoprire quella dei propri amici. Vogliamo che BeReal sia un luogo dove le persone possono divertirsi ed esprimere sé stesse in piena sicurezza. 
+
+I nostri Standard della community sono pensati per contribuire a garantire che tu e tutti gli altri utenti possiate utilizzare in modo sicuro i nostri Servizi. Sono parte integrante dei nostri Termini di servizio e della nostra Informativa sulla privacy (denominati insieme "Accordo per l'utente"). In caso tu non sia d'accordo con una parte qualsiasi dell'Accordo per l'utente, compresi gli Standard della community, BeReal potrebbe non essere la piattaforma giusta per te. 
+
+Gli Standard della community sono semplicemente una raccolta di indicazioni che possono essere riassunte con l'essere rispettosi nei confronti degli altri. In pratica, se fai agli altri quello che non vorresti fosse fatto a te su BeReal, stai molto probabilmente violando gli Standard della community. In caso di dubbio, riportiamo di seguito un elenco:
+
+Bullismo, abusi e molestie: non puoi condividere contenuti che abbiano l'obiettivo o consentano di compiere atti di bullismo, abusi o molestie ai danni di individui, siano essi utenti o meno. 
+
+Sfruttamento sessuale minorile: lo sfruttamento minorile è severamente vietato; BeReal non avrà alcuna tolleranza verso contenuti che raffigurano o promuovono lo sfruttamento sessuale minorile. 
+
+Contenuti che incitano all'odio: non puoi condividere contenuti che incitino all'odio verso individui od organizzazioni. 
+
+Attività illegali: non puoi condividere contenuti che promuovano o comportino attività illegali.  
+
+Proprietà intellettuale: non puoi condividere contenuti che violino la proprietà intellettuali di altri.
+
+Nudità non consensuale: la nudità non consensuale è severamente vietata; BeReal non avrà alcuna tolleranza verso contenuti che raffigurano o promuovono la nudità non consensuale. 
+
+Informazioni personali non pubbliche: non puoi condividere contenuti che includano informazioni personali non pubbliche di altri individui senza il loro consenso.  
+
+Suicidio e autolesionismo: non puoi condividere contenuti che promuovano, incoraggino o glorifichino il suicidio o l'autolesionismo. 
+
+Contenti violenti: non puoi condividere contenuti che minaccino, incitino, glorifichino o esprimano il desiderio di agire con violenza o arrecare danno. 
+
+Come effettuare una segnalazione
+
+Puoi segnalare direttamente qualsiasi violazione degli Standard della community utilizzando gli appositi strumenti nell'applicazione BeReal o compilando il nostro modulo online qui. Il team di assistenza BeReal verificherà la segnalazione e, se necessario, invierà una risposta. Per poterti contattare, potremmo utilizzare le informazioni da te fornite, compresi il tuo nome utente, nome completo e indirizzo e-mail. 
+
+Se decidi di segnalare dei contenuti senza utilizzare gli appositi strumenti nell'applicazione BeReal, dovrai acquisire screenshot dei contenuti o degli account che ritieni violino gli Standard della community.
+
+Cosa accade dopo aver effettuato una segnalazione?
+
+Qualsiasi comportamento, attività o contenuto che riteniamo sia contrario agli Standard della community verrà sanzionato in modo temporaneo o permanente. 
+
+Abbiamo il diritto di monitorare i contenuti e l'utilizzo dell'App in qualsiasi momento e a nostra discrezione, con l'obiettivo di verificarne la conformità con gli Standard della community e dei Termini d'uso. La nostra decisione riguardo l'eventuale violazione degli Standard della community è definitiva. Fortunatamente, si tratta solo di un'eventualità remota che non si verificherà attenendosi agli Standard della community.
+
+Tuttavia, se ritieni che una decisione presa nei tuoi confronti sia ingiusta, hai la possibilità di contestarla scrivendoci.
+
+Per ora è tutto. Divertiti in stile BeReal!
+
+//////////////////////////
+RISORSE DEL MARCHIO
+
+👋Scarica il nostro Brand Media Kit
+Leggete le nostre linee guida, scaricate il nostro brand media kit e informatevi sui permessi di utilizzo.
+
+ 
+
+Linee guida per il logo
+
+Assicuratevi di utilizzare solo il logo ufficiale di BeReal che trovate nel link sottostante.
+
+ 
+
+Fare e non fare
+
+✅Garantire un adeguato spazio libero intorno al logo, mantenendolo libero da altri loghi, grafici, immagini o caratteri.
+
+✅Quando si scrive (BeReal.), scrivere sempre in maiuscolo la (B) e la (R) e mantenere tutto il resto del testo in minuscolo.
+
+Quando si scrive il nostro nome (BeReal.) in una frase, non usare il punto (.) alla fine del nome (scriverlo semplicemente come BeReal).
+
+🚫Non scrivere mai il nostro nome come BEREAL, BEreal, Bereal, Be-Real, be-real, bereal, beREAL o in qualsiasi altro modo diverso da (BeReal).
+
+🚫Non allungare, capovolgere, schiacciare, colorare, distorcere, ritagliare o modificare il logo BeReal in alcun modo.
+
+🚫Non regolare la trasparenza o l'opacità del logo BeReal.
+
+🚫Non applicare ombreggiature o altri effetti al logo BeReal.
+
+🚫Non modificare, delineare o riconfigurare il logo BeReal.
+
+ 
+
+Legale
+
+BeReal dedica notevoli risorse allo sviluppo e alla protezione della sua proprietà intellettuale. Oltre a richiedere la registrazione dei propri marchi e loghi in tutto il mondo, BeReal fa valere i propri diritti nei confronti di chi fa un uso improprio dei suoi marchi.
+
+I marchi di BeReal sono di proprietà di BeReal e possono essere utilizzati solo come previsto dalle presenti linee guida o con il permesso di BeReal. L'utente non può utilizzare o registrare, o altrimenti rivendicare diritti su qualsiasi marchio BeReal, anche come o come parte di qualsiasi marchio, marchio di servizio, nome aziendale, nome commerciale, nome utente o registrazione di dominio. L'utente non deve utilizzare o rivendicare diritti su alcun marchio in un modo che sia confusamente simile o diluitivo dei marchi di BeReal, anche come, o come parte di, un marchio. Non utilizzare i marchi di BeReal per nulla che sia in contrasto con i Termini di BeReal.
+
+Possiamo revocare l'autorizzazione all'uso dei marchi di BeReal in qualsiasi momento. BeReal si riserva il diritto di non approvare i contenuti che ritiene non coerenti con il marchio BeReal.

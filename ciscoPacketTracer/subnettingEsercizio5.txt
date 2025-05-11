@@ -1,0 +1,53 @@
+SUBNETTING
+192.168.1.0 /24
+
+RETE PC:
+64 pc
+65 dispositivi = pc + router
+
+RETE STAMPANTI:
+6 stampanti
+
+RETE SERVER:
+2 server
+3 dispositivi = 2 server + router
+
+
+RETE PC CALCOLI:
+32 - 24 = 8 2^8 = 256, quindi 2^7 /25 (128 dispositivi)
+
+192.168.1.1 /25
+
+indirizzo di rete: ha tutti i bit di host a 0
+indirizzo di broadcast: ha tutti i bit di host a 1
+
+data una subnet mask n il numero di indirizzi ip utili è 2^(32-n) - 2 (perché IP di rete e broadcast)
+
+192.168.1.10000000 binario
+
+subnet mask: 255.255.255.128
+wildcard mask: 0.0.0.127
+host disponibili: 126
+IP di broadcast: 192.168.1.127
+primo IP disponibile: 192.168.1.2
+ultimo indirizzo IP disponibile: 192.168.1.126
+
+RETE STAMPANTI CALCOLI:
+192.168.1.128 /28
+
+subnet mask: 255.255.255.240
+wildcard mask: 0.0.0.127
+host disponibili: 14
+IP di broadcast: 192.168.1.145
+primo IP disponibile: 192.168.1.129
+ultimo indirizzo IP disponibile: 192.168.1.144
+
+RETE SERVER CALCOLI:
+192.168.1.144 /29
+
+subnet mask: 255.255.255.248
+wildcard mask: 0.0.0.7
+host disponibili: 6
+IP di broadcast: 192.168.1.151
+primo IP disponibile: 192.168.1.145
+ultimo indirizzo IP disponibile: 192.168.1.150
